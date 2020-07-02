@@ -1,0 +1,48 @@
+﻿@using CoreMVC.Data.Models
+@model IEnumerable<Car>
+
+
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>ListCars</title>
+</head>
+<body>
+    <h1>All cars:</h1>
+    @{
+    <h2>
+        Categories:
+    </h2>
+        foreach (var category in ViewBag.Category)
+        {
+            <div>
+               <p>
+                  @category.CategoryName
+                </p>
+            </div>
+        }
+    }
+    @{
+        foreach (var car in Model)
+        {
+            <div>
+                <h2>
+                    Model: @car.Name
+                </h2>
+                <p>
+                    Sort description: @car.ShortDesc
+                    Description: @car.LongDesc
+                    Price: @car.Price.ToString()
+                </p>
+
+            </div>
+        }
+    }
+</body>
+</html>
