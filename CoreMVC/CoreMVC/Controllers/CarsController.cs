@@ -1,4 +1,5 @@
 ﻿using CoreMVC.Data.Interfaces;
+using CoreMVC.ViewModels;
 using Microsoft.AspNetCore.Mvc;
 using System;
 using System.Collections.Generic;
@@ -20,9 +21,11 @@ namespace CoreMVC.Controllers
 
 		public ViewResult ListCars()
 		{
-			ViewBag.Category = _allCatgories.AllCategories;
-			var cars = _allCars.Cars;
-			return View(cars);
+			ViewBag.Title = "Page with cars";
+			CarsListViewModel obj = new CarsListViewModel();
+			obj.AllCars = _allCars.Cars;
+			obj.currCategory = "Cars";
+			return View(obj);
 		}
 	}
 }
