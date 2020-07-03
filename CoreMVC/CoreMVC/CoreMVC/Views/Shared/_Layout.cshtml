@@ -1,0 +1,35 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>@ViewBag.Title</title>
+    <link href="~/css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="~/css/StyleSheet.css" rel="stylesheet" type="text/css">
+
+    <div class="container">
+        <div>
+            <ul class="nav navbar-nav">
+                <li><a href="~/Home/Index" class="navbar-brand">Main</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="col-md-auto">
+        <h1> All cars: </h1>
+        <h3>@Model.currCategory</h3>
+    </div>
+</head>
+<
+<body>    
+    <div class="container body-content">
+        @RenderBody()
+        <script src=" ~/js/bootstrap.js" rel="stylesheet" type="text/css">
+        </script>
+
+        <footer>
+            <p class="text-dark">© 2020 - CarStore</p>
+        </footer>
+    </div>
+</body>
+</html>

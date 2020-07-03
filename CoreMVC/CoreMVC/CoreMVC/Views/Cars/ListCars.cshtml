@@ -1,0 +1,42 @@
+﻿
+@{
+    foreach (var car in Model.AllCars)
+    {
+        <div class="container">
+            <div class="row">
+                <div class="col-sm">
+                    <h3>
+                        @car.Name
+                    </h3>
+                </div>               
+                </div>  
+            </div>
+
+<div class="container">
+
+    <div class="row">
+        <div class="col-sm">
+            <img class="img-thumbnail" src="@car.Img" alt="@car.Name">
+        </div>
+
+        <div class="col-sm">
+            <p class="text-dark, display-2" >
+              <p>  @car.Price.ToString() $ </p>
+
+              <p> @car.ShortDesc  </p>
+
+              <p> @car.LongDesc  </p>
+            </p>
+        </div>
+
+        <div class="col-sm">
+            <p class="text-dark">
+             
+            </p>
+        </div>
+    </div>
+
+</div>
+        }
+        }
+
