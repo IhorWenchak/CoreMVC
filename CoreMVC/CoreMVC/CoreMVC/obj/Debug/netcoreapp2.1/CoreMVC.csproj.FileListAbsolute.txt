@@ -48,3 +48,4 @@ E:\CoreMVC\CoreMVC\CoreMVC\CoreMVC\obj\Debug\netcoreapp2.1\CoreMVC.Views.pdb
 E:\CoreMVC\CoreMVC\CoreMVC\CoreMVC\obj\Debug\netcoreapp2.1\CoreMVC.dll
 E:\CoreMVC\CoreMVC\CoreMVC\CoreMVC\obj\Debug\netcoreapp2.1\CoreMVC.pdb
 E:\CoreMVC\CoreMVC\CoreMVC\CoreMVC\obj\Debug\netcoreapp2.1\CoreMVC.csproj.CopyComplete
+E:\CoreMVC\CoreMVC\CoreMVC\CoreMVC\obj\Debug\netcoreapp2.1\CoreMVC.csprojAssemblyReference.cache
