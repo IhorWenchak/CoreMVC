@@ -4,39 +4,31 @@
     {
         <div class="container">
             <div class="row">
-                <div class="col-sm">
-                    <h3>
-                        @car.Name
-                    </h3>
-                </div>               
-                </div>  
+                <div class="col">
+                    <div class="col-sm">
+                        <img class="img-thumbnail" src="@car.Img" alt="@car.Name">
+                    </div>
+                </div>
+                <div class="col">
+                    <h3>@car.Name</h3>
+                    <div class="row">
+                        @car.ShortDesc
+                    </div>
+                    <div class="row">
+                        @car.LongDesc
+                    </div>
+                    <div class="row">
+                        @car.Price.ToString()$
+                    </div>
+                </div>
             </div>
-
-<div class="container">
-
-    <div class="row">
-        <div class="col-sm">
-            <img class="img-thumbnail" src="@car.Img" alt="@car.Name">
         </div>
-
-        <div class="col-sm">
-            <p class="text-dark, display-2" >
-              <p>  @car.Price.ToString() $ </p>
-
-              <p> @car.ShortDesc  </p>
-
-              <p> @car.LongDesc  </p>
-            </p>
+        <div class="row">
+            <div class="col-xs-6" style="height: 10px;">
+                
+            </div>
+            
         </div>
-
-        <div class="col-sm">
-            <p class="text-dark">
-             
-            </p>
-        </div>
-    </div>
-
-</div>
-        }
-        }
+    }
+ }
 
