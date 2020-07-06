@@ -19,7 +19,7 @@ namespace CoreMVC.Data
 					new Category { CategoryName = "Car with internal combustion engine", Desc = "Classic car" });
 			}
 			
-			if (!content.Car.Any())
+			if (!content.Car.Any() && content.Category.Any())
 			{
 				content.AddRange(
 					new Car
