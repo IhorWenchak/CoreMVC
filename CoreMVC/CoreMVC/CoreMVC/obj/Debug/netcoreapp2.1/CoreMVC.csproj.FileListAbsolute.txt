@@ -30,7 +30,6 @@ E:\CoreMVC\CoreMVC\CoreMVC\CoreMVC\bin\Debug\netcoreapp2.1\CoreMVC.dll
 E:\CoreMVC\CoreMVC\CoreMVC\CoreMVC\bin\Debug\netcoreapp2.1\CoreMVC.pdb
 E:\CoreMVC\CoreMVC\CoreMVC\CoreMVC\bin\Debug\netcoreapp2.1\CoreMVC.Views.dll
 E:\CoreMVC\CoreMVC\CoreMVC\CoreMVC\bin\Debug\netcoreapp2.1\CoreMVC.Views.pdb
-E:\CoreMVC\CoreMVC\CoreMVC\CoreMVC\obj\Debug\netcoreapp2.1\CoreMVC.csprojAssemblyReference.cache
 E:\CoreMVC\CoreMVC\CoreMVC\CoreMVC\obj\Debug\netcoreapp2.1\CoreMVC.csproj.CoreCompileInputs.cache
 E:\CoreMVC\CoreMVC\CoreMVC\CoreMVC\obj\Debug\netcoreapp2.1\CoreMVC.RazorAssemblyInfo.cache
 E:\CoreMVC\CoreMVC\CoreMVC\CoreMVC\obj\Debug\netcoreapp2.1\CoreMVC.RazorAssemblyInfo.cs

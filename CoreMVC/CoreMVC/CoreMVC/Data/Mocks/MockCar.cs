@@ -57,8 +57,7 @@ namespace CoreMVC.Data.Mocks
 		}
 
 
-		public IEnumerable<Car> GetFavCars { get; set; }
-
+		public IEnumerable<Car> GetFavCars { get; }
 
 
 		public Car GetObjectCar(int carId)
