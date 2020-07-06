@@ -8,8 +8,8 @@ namespace CoreMVC.ViewModels
 {
 	public class CarsListViewModel
 	{
-		public IEnumerable<Car> AllCars{ get; set; }
+		public IEnumerable<Car> AllCars { get; set; }
 
-		public string currCategory { get; set; }
+		public string _currCategory { get; set; }
 	}
 }

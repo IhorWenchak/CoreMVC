@@ -22,9 +22,10 @@ namespace CoreMVC.Controllers
 		public ViewResult ListCars()
 		{
 			ViewBag.Title = "Page with cars";
-			CarsListViewModel obj = new CarsListViewModel();
+			CarsListViewModel carsListViewModel = new CarsListViewModel();
+			CarsListViewModel obj = carsListViewModel;
 			obj.AllCars = _allCars.Cars;
-			obj.currCategory = "";
+			obj._currCategory = " ";
 			return View(obj);
 		}
 	}

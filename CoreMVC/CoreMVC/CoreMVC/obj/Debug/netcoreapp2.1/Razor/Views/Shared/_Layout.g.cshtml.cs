@@ -56,7 +56,7 @@ using CoreMVC.ViewModels;
             WriteLiteral("<!DOCTYPE html>\r\n\r\n<html>\r\n\r\n");
             EndContext();
             BeginContext(29, 912, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("head", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "b2620b8560124dddbadac295a63d8bb6", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("head", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5f77160d51794ac3b494dd4b1b47a078", async() => {
                 BeginContext(35, 72, true);
                 WriteLiteral("\r\n    <meta name=\"viewport\" content=\"width=device-width\" />\r\n    <title>");
                 EndContext();
@@ -71,7 +71,7 @@ using CoreMVC.ViewModels;
                 WriteLiteral("</title>\r\n    ");
                 EndContext();
                 BeginContext(135, 66, false);
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("link", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagOnly, "d338e0e3ea574411a1d14b9eb942352f", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("link", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagOnly, "3509d180d246482b8fd2a6bbb67c469d", async() => {
                 }
                 );
                 __Microsoft_AspNetCore_Mvc_Razor_TagHelpers_UrlResolutionTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.Razor.TagHelpers.UrlResolutionTagHelper>();
@@ -91,7 +91,7 @@ using CoreMVC.ViewModels;
                 WriteLiteral("\r\n    ");
                 EndContext();
                 BeginContext(207, 67, false);
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("link", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagOnly, "b083d580cd864eef829ec6521fa7a388", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("link", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagOnly, "61f5a185697642f6ac52be2339fd1c27", async() => {
                 }
                 );
                 __Microsoft_AspNetCore_Mvc_Razor_TagHelpers_UrlResolutionTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.Razor.TagHelpers.UrlResolutionTagHelper>();
@@ -111,7 +111,7 @@ using CoreMVC.ViewModels;
                 WriteLiteral("\r\n    <div class=\"container body-content\">\r\n        ");
                 EndContext();
                 BeginContext(326, 52, false);
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "b046aa5d2ee546aeb25c784ab4bb6ff3", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "2ce8ad33dc7c40a593b07f22542ba68b", async() => {
                     BeginContext(370, 4, true);
                     WriteLiteral("Main");
                     EndContext();
@@ -168,7 +168,7 @@ using CoreMVC.ViewModels;
             WriteLiteral("\r\n\r\n");
             EndContext();
             BeginContext(945, 709, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("body", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "d972b1388af44e7193dec09b4c343aa9", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("body", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "c65fc8b09ce64fb8beba15d5819a5593", async() => {
                 BeginContext(951, 56, true);
                 WriteLiteral("    \r\n    <div class=\"container body-content\">\r\n        ");
                 EndContext();
