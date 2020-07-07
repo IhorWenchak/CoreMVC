@@ -1,0 +1,31 @@
+﻿@model Car
+
+<div class="container">
+    <div class="row">
+        <div class="col">
+            <div class="col-sm">
+                <img class="img-thumbnail" src="@Model.Img" alt="@Model.Name">
+            </div>
+        </div>
+        <div class="col">
+            <h3>@Model.Name</h3>
+            <div class="row">
+                @Model.ShortDesc
+            </div>
+            <div class="row">
+                @Model.LongDesc
+            </div>
+            <div class="row">
+                @Model.Category.CategoryName
+            </div>
+            <div class="row">
+                @Model.Price.ToString()$
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-xs-6" style="height: 5px;">
+
+        </div>
+    </div>
+</div>

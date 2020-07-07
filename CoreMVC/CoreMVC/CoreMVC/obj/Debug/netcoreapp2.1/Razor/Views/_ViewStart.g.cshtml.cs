@@ -18,8 +18,13 @@ using CoreMVC.ViewModels;
 
 #line default
 #line hidden
+#line 2 "E:\CoreMVC\CoreMVC\CoreMVC\CoreMVC\Views\_ViewImports.cshtml"
+using CoreMVC.Data.Models;
+
+#line default
+#line hidden
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"7091c65830b0329e613be026ede8a57552863778", @"/Views/_ViewStart.cshtml")]
-    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"b02b914de6084755344427be51edc1be4c432cdb", @"/Views/_ViewImports.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"b6484132c2839248dca34051b3fa535846e89398", @"/Views/_ViewImports.cshtml")]
     public class Views__ViewStart : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<dynamic>
     {
         #pragma warning disable 1998

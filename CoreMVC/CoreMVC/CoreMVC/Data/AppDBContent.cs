@@ -16,5 +16,7 @@ namespace CoreMVC.Data
 
 		public DbSet<Car> Car { get; set; }
 		public DbSet<Category> Category { get; set; }
-	}
+		public DbSet<SellCartItem> SellCartItem { get; set; }
+
+		}
 }
