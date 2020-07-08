@@ -48,8 +48,8 @@ namespace CoreMVC.Data.Mocks
 						ShortDesc = "Cozy and large.",
 						LongDesc = "Convenient car for the city.",
 						Img = "/img/1400x936.jpg",
-						Price = 40000, IsFavourite = false,
-						Available = false,
+						Price = 40000, IsFavourite = true,
+						Available = true,
 						Category =  _categoryCars.AllCategories.Last()
 					}
 				};

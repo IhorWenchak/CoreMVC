@@ -62,8 +62,8 @@ namespace CoreMVC.Data
 						LongDesc = "Convenient car for the city.",
 						Img = "/img/1400x936.jpg",
 						Price = 40000,
-						IsFavourite = false,
-						Available = false,
+						IsFavourite = true,
+						Available = true,
 						Category = content.Category.Last()
 					});
 			}
