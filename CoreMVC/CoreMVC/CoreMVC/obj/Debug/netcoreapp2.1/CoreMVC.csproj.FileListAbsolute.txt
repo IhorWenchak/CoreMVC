@@ -39,6 +39,7 @@ E:\CoreMVC\CoreMVC\CoreMVC\CoreMVC\obj\Debug\netcoreapp2.1\CoreMVC.TagHelpers.in
 E:\CoreMVC\CoreMVC\CoreMVC\CoreMVC\obj\Debug\netcoreapp2.1\CoreMVC.TagHelpers.output.cache
 E:\CoreMVC\CoreMVC\CoreMVC\CoreMVC\obj\Debug\netcoreapp2.1\CoreMVC.RazorCoreGenerate.cache
 E:\CoreMVC\CoreMVC\CoreMVC\CoreMVC\obj\Debug\netcoreapp2.1\Razor\Views\Cars\ListCars.g.cshtml.cs
+E:\CoreMVC\CoreMVC\CoreMVC\CoreMVC\obj\Debug\netcoreapp2.1\Razor\Views\SellCart\Index.g.cshtml.cs
 E:\CoreMVC\CoreMVC\CoreMVC\CoreMVC\obj\Debug\netcoreapp2.1\Razor\Views\Shared\AllCars.g.cshtml.cs
 E:\CoreMVC\CoreMVC\CoreMVC\CoreMVC\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_Layout.g.cshtml.cs
 E:\CoreMVC\CoreMVC\CoreMVC\CoreMVC\obj\Debug\netcoreapp2.1\Razor\Views\_ViewImports.g.cshtml.cs

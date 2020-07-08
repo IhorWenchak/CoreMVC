@@ -17,9 +17,9 @@ namespace CoreMVC.Data.Repository
 			this.appDBContent = appDBContent;
 		}
 
-		IEnumerable<Car> IAllCars.Cars => appDBContent.Car.Include(c => c.Category);
+		public IEnumerable<Car> Cars => appDBContent.Car.Include(c => c.Category);
 
-		IEnumerable<Car> IAllCars.GetFavCars => appDBContent.Car.Where(p => p.IsFavourite).Include(c => c.Category);
+		public IEnumerable<Car> GetFavCars => appDBContent.Car.Where(p => p.IsFavourite).Include(c => c.Category);
 
 		Car IAllCars.GetObjectCar(int carId) => appDBContent.Car.FirstOrDefault(p => p.Id == carId);
 		

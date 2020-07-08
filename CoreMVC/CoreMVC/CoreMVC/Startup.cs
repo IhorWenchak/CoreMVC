@@ -5,6 +5,7 @@ using System.Threading.Tasks;
 using CoreMVC.Data;
 using CoreMVC.Data.Interfaces;
 using CoreMVC.Data.Mocks;
+using CoreMVC.Data.Models;
 using CoreMVC.Data.Repository;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
@@ -33,7 +34,13 @@ namespace CoreMVC
 			//services.AddTransient<ICarsCategory, MockCategory
 			services.AddTransient<IAllCars, CarRepository>();
 			services.AddTransient<ICarsCategory, CategoryRepository>();
-			services.AddMvc();			
+
+			services.AddSingleton<IHttpContextAccessor, HttpContextAccessor>();
+			services.AddScoped(sp => SellCart.GetCart(sp));
+
+			services.AddMvc();
+			services.AddMemoryCache();
+			services.AddSession();
 		}
 		// This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
 		public void Configure(IApplicationBuilder app, IHostingEnvironment env)
@@ -47,6 +54,7 @@ namespace CoreMVC
 				app.UseDeveloperExceptionPage();
 				app.UseStatusCodePages();
 				app.UseStaticFiles();
+				app.UseSession();
 				app.UseMvcWithDefaultRoute();
 			}
 			else
