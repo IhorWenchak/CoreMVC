@@ -746,12 +746,12 @@
           "lib/netstandard2.0/Microsoft.AspNetCore.Http.Connections.Common.dll": {}
         }
       },
-      "Microsoft.AspNetCore.Http.Extensions/2.1.1": {
+      "Microsoft.AspNetCore.Http.Extensions/2.2.0-preview1-35029": {
         "type": "package",
         "dependencies": {
-          "Microsoft.AspNetCore.Http.Abstractions": "2.1.1",
-          "Microsoft.Extensions.FileProviders.Abstractions": "2.1.1",
-          "Microsoft.Net.Http.Headers": "2.1.1",
+          "Microsoft.AspNetCore.Http.Abstractions": "2.2.0-preview1-35029",
+          "Microsoft.Extensions.FileProviders.Abstractions": "2.2.0-preview1-35029",
+          "Microsoft.Net.Http.Headers": "2.2.0-preview1-35029",
           "System.Buffers": "4.5.0"
         },
         "compile": {
@@ -2463,10 +2463,10 @@
           "lib/netstandard1.4/Microsoft.IdentityModel.Xml.dll": {}
         }
       },
-      "Microsoft.Net.Http.Headers/2.1.1": {
+      "Microsoft.Net.Http.Headers/2.2.0-preview1-35029": {
         "type": "package",
         "dependencies": {
-          "Microsoft.Extensions.Primitives": "2.1.1",
+          "Microsoft.Extensions.Primitives": "2.2.0-preview1-35029",
           "System.Buffers": "4.5.0"
         },
         "compile": {
@@ -5317,16 +5317,16 @@
         "microsoft.aspnetcore.http.connections.common.nuspec"
       ]
     },
-    "Microsoft.AspNetCore.Http.Extensions/2.1.1": {
-      "sha512": "ncAgV+cqsWSqjLXFUTyObGh4Tr7ShYYs3uW8Q/YpRwZn7eLV7dux5Z6GLY+rsdzmIHiia3Q2NWbLULQi7aziHw==",
+    "Microsoft.AspNetCore.Http.Extensions/2.2.0-preview1-35029": {
+      "sha512": "MITD2SCrOlrEZPNVNqSs7U66Rt6lHSOnKm2GSFtDNWzK88ag4BOIOyoT3wxO5OkweHOtX+i9SZ6wiBaN76tpTg==",
       "type": "package",
-      "path": "microsoft.aspnetcore.http.extensions/2.1.1",
+      "path": "microsoft.aspnetcore.http.extensions/2.2.0-preview1-35029",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "lib/netstandard2.0/Microsoft.AspNetCore.Http.Extensions.dll",
         "lib/netstandard2.0/Microsoft.AspNetCore.Http.Extensions.xml",
-        "microsoft.aspnetcore.http.extensions.2.1.1.nupkg.sha512",
+        "microsoft.aspnetcore.http.extensions.2.2.0-preview1-35029.nupkg.sha512",
         "microsoft.aspnetcore.http.extensions.nuspec"
       ]
     },
@@ -7058,16 +7058,16 @@
         "microsoft.identitymodel.xml.nuspec"
       ]
     },
-    "Microsoft.Net.Http.Headers/2.1.1": {
-      "sha512": "lPNIphl8b2EuhOE9dMH6EZDmu7pS882O+HMi5BJNsigxHaWlBrYxZHFZgE18cyaPp6SSZcTkKkuzfjV/RRQKlA==",
+    "Microsoft.Net.Http.Headers/2.2.0-preview1-35029": {
+      "sha512": "guzkQpVoyadwmjcROoa8RNMsIHvl8pTj0K4targQjusXuzh1HKzcCCgwovaiICNPbCTvr6U6TDoVXSJyIRa3wg==",
       "type": "package",
-      "path": "microsoft.net.http.headers/2.1.1",
+      "path": "microsoft.net.http.headers/2.2.0-preview1-35029",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "lib/netstandard2.0/Microsoft.Net.Http.Headers.dll",
         "lib/netstandard2.0/Microsoft.Net.Http.Headers.xml",
-        "microsoft.net.http.headers.2.1.1.nupkg.sha512",
+        "microsoft.net.http.headers.2.2.0-preview1-35029.nupkg.sha512",
         "microsoft.net.http.headers.nuspec"
       ]
     },
@@ -12733,6 +12733,7 @@
       "JSON >= 1.0.1",
       "Microsoft.AspNet.Mvc >= 5.2.7",
       "Microsoft.AspNetCore.App >= 2.1.1",
+      "Microsoft.AspNetCore.Http.Extensions >= 2.2.0-preview1-35029",
       "Microsoft.AspNetCore.Razor.Design >= 2.1.2",
       "Microsoft.AspNetCore.Session >= 2.2.0-preview1-35029",
       "Microsoft.AspNetCore.StaticFiles >= 2.1.1",
@@ -12799,6 +12800,10 @@
             "target": "Package",
             "version": "[2.1.1, )",
             "autoReferenced": true
+          },
+          "Microsoft.AspNetCore.Http.Extensions": {
+            "target": "Package",
+            "version": "[2.2.0-preview1-35029, )"
           },
           "Microsoft.AspNetCore.Razor.Design": {
             "suppressParent": "All",
