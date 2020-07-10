@@ -10,6 +10,6 @@ namespace CoreMVC.ViewModels
 	{
 		public IEnumerable<Car> AllCars { get; set; }
 
-		public string _currCategory { get; set; }
+		public string CurrCategory { get; set; }
 	}
 }

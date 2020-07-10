@@ -10,6 +10,7 @@ using CoreMVC.Data.Repository;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Http;
+using Microsoft.AspNetCore.Routing;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
@@ -55,7 +56,11 @@ namespace CoreMVC
 				app.UseStatusCodePages();
 				app.UseStaticFiles();
 				app.UseSession();
-				app.UseMvcWithDefaultRoute();
+				//app.UseMvcWithDefaultRoute();
+				app.UseMvc(routes => {
+					routes.MapRoute(name: "default", template: "{controller=Home}/{action=Index}/{Id?}");
+					routes.MapRoute(name: "categoryFiles", template: "Car/ListCars/{category?}", defaults: new { Controller = "car", action = "ListCars" });
+				});
 			}
 			else
 			{
