@@ -24,7 +24,7 @@ using CoreMVC.Data.Models;
 #line default
 #line hidden
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"e22a511e8076e7523b8f8d7d08fae3caf0faf57f", @"/Views/SellCart/Index.cshtml")]
-    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"b6484132c2839248dca34051b3fa535846e89398", @"/Views/_ViewImports.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"0ef50bad97680a96886df00d768d933092a63da6", @"/Views/_ViewImports.cshtml")]
     public class Views_SellCart_Index : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<SellCartViewModel>
     {
         #pragma warning disable 1998

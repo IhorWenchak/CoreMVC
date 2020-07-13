@@ -21,11 +21,15 @@
             <div class="row">
                 @Model.Price.ToString()$
             </div>
+            <div class="row">
+                <a class="btn btn-outline-success" asp-controller="SellCart" asp-action="AddToCart" asp-route-carTd="@Model.Id">Add to cart</a>
+            </div>
         </div>
+        
     </div>
     <div class="row">
         <div class="col-xs-6" style="height: 5px;">
-
+           
         </div>
-    </div>
+    </div>   
 </div>

@@ -40,6 +40,7 @@ E:\CoreMVC\CoreMVC\CoreMVC\CoreMVC\obj\Debug\netcoreapp2.1\CoreMVC.TagHelpers.ou
 E:\CoreMVC\CoreMVC\CoreMVC\CoreMVC\obj\Debug\netcoreapp2.1\CoreMVC.RazorCoreGenerate.cache
 E:\CoreMVC\CoreMVC\CoreMVC\CoreMVC\obj\Debug\netcoreapp2.1\Razor\Views\Cars\ListCars.g.cshtml.cs
 E:\CoreMVC\CoreMVC\CoreMVC\CoreMVC\obj\Debug\netcoreapp2.1\Razor\Views\Home\Index.g.cshtml.cs
+E:\CoreMVC\CoreMVC\CoreMVC\CoreMVC\obj\Debug\netcoreapp2.1\Razor\Views\Order\CheckOut.g.cshtml.cs
 E:\CoreMVC\CoreMVC\CoreMVC\CoreMVC\obj\Debug\netcoreapp2.1\Razor\Views\SellCart\Index.g.cshtml.cs
 E:\CoreMVC\CoreMVC\CoreMVC\CoreMVC\obj\Debug\netcoreapp2.1\Razor\Views\Shared\AllCars.g.cshtml.cs
 E:\CoreMVC\CoreMVC\CoreMVC\CoreMVC\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_Layout.g.cshtml.cs
@@ -51,4 +52,3 @@ E:\CoreMVC\CoreMVC\CoreMVC\CoreMVC\obj\Debug\netcoreapp2.1\CoreMVC.Views.pdb
 E:\CoreMVC\CoreMVC\CoreMVC\CoreMVC\obj\Debug\netcoreapp2.1\CoreMVC.dll
 E:\CoreMVC\CoreMVC\CoreMVC\CoreMVC\obj\Debug\netcoreapp2.1\CoreMVC.pdb
 E:\CoreMVC\CoreMVC\CoreMVC\CoreMVC\obj\Debug\netcoreapp2.1\CoreMVC.csproj.CopyComplete
-E:\CoreMVC\CoreMVC\CoreMVC\CoreMVC\obj\Debug\netcoreapp2.1\CoreMVC.csprojAssemblyReference.cache
