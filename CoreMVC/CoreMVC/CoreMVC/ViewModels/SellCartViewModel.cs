@@ -9,5 +9,7 @@ namespace CoreMVC.ViewModels
 	public class SellCartViewModel
 	{
 		public SellCart SellCart { get; set; }
+
+		public OrderDetail OrderDetail { get; set; }
 	}
 }

@@ -35,6 +35,7 @@ namespace CoreMVC
 			//services.AddTransient<ICarsCategory, MockCategory
 			services.AddTransient<IAllCars, CarRepository>();
 			services.AddTransient<ICarsCategory, CategoryRepository>();
+			services.AddTransient<IAllOrders, OrdersRepository>();
 
 			services.AddSingleton<IHttpContextAccessor, HttpContextAccessor>();
 			services.AddScoped(sp => SellCart.GetCart(sp));

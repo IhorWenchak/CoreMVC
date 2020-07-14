@@ -19,9 +19,42 @@ namespace CoreMVC.Controllers
 			_sellCart = sellCart;
 		}
 
-        public IActionResult CheckOut()
-        {
-            return View();
-        }
-    }
+		[HttpGet]
+		public IActionResult CheckOut()
+		{
+			_sellCart.ListSellItems = _sellCart.GetSellItems();
+			if (_sellCart.ListSellItems.Count == 0)
+			{
+				ModelState.AddModelError("", "Cart is empty!");
+				return RedirectToAction("NotComplete");
+			}
+			return View();
+		}
+
+		[HttpPost]
+		public IActionResult CheckOut(Order order)
+		{
+			_sellCart.ListSellItems = _sellCart.GetSellItems();
+
+			if (ModelState.IsValid) 
+			{
+				_allOrders.CreateOrder(order);
+				return RedirectToAction("Complete");
+			}
+
+			return View(order);
+		}
+
+		public IActionResult Complete()
+		{
+			ViewBag.Message = "Order is complete.";
+			return View();
+		}
+
+		public IActionResult NotComplete()
+		{
+			ViewBag.Message = "Cart is empty!";
+			return View();
+		}
+	}
 }
